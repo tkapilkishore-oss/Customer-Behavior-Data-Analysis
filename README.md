@@ -56,18 +56,31 @@ Loyal
 
 📊 3. Interactive Dashboard (Power BI)
 🔑 Key Metrics:
+
 👥 Total Customers
+
 💰 Average Purchase Amount
+
 ⭐ Average Review Rating
+
 📈 Visualizations:
+
 🍩 Donut Chart → Subscription Distribution
+
 📊 Bar Chart → Revenue by Category & Age Group
+
 📉 Trend Insights → Purchase behavior patterns
+
 🎛️ Interactivity:
+
 Filters (Slicers) for:
+
 👤 Gender
+
 🛍️ Category
+
 💳 Subscription Status
+
 🚚 Shipping Type
 
 👉 Enables dynamic and detailed data exploration
