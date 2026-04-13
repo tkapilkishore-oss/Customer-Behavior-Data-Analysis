@@ -1,4 +1,5 @@
 🛍️ Customer Behavior Data Analytics Project
+
 📌 Project Overview
 
 This project analyzes customer purchasing patterns to help a retail business optimize marketing strategies and improve customer loyalty.
@@ -13,10 +14,11 @@ influence revenue generation and buying behavior.
 
 🧰 Tech Stack
 Tool	Usage
-🐍 Python (Pandas)	Data cleaning & feature engineering
-🗄️ PostgreSQL	Data storage & advanced SQL analysis
-📊 Power BI	Interactive dashboards & visualization
-📓 Jupyter Notebook	Exploratory Data Analysis (EDA)
+🐍 Python (Pandas) - 	Data cleaning & feature engineering
+🗄️ PostgreSQL -	Data storage & advanced SQL analysis
+📊 Power BI	- Interactive dashboards & visualization
+📓 Jupyter Notebook	- Exploratory Data Analysis (EDA)
+
 🔄 Data Pipeline
 🧹 1. Data Cleaning & Feature Engineering (Python)
 🔧 Missing Value Imputation
@@ -28,6 +30,7 @@ Tool	Usage
 → Converted purchase frequency into purchase_frequency_days
 🧼 Data Integrity
 → Removed redundant and overlapping columns
+
 🧠 2. Advanced Analysis (SQL - PostgreSQL)
 💰 Revenue Segmentation
 → Compared total revenue across gender and age groups
@@ -40,6 +43,7 @@ Loyal
 → Identified top 3 most purchased items per category using ROW_NUMBER()
 📈 Subscription Impact Analysis
 → Evaluated spending behavior of subscribed vs non-subscribed users
+
 📊 3. Interactive Dashboard (Power BI)
 🔑 Key Metrics:
 👥 Total Customers
@@ -70,20 +74,22 @@ Filters (Slicers) for:
 → Strong opportunity for targeted marketing campaigns
 🚀 How to Run the Project
 ⚙️ 1. Environment Setup
-
 Install:
-
 Python (Pandas, SQLAlchemy, Psycopg2)
 PostgreSQL
 Power BI Desktop
+
 🧹 2. Data Cleaning
 Run the Jupyter Notebook
 Generate cleaned dataset (CSV)
+
 🗄️ 3. Database Migration
 Use Python script to load data into PostgreSQL
+
 🧠 4. SQL Analysis
 Execute queries from queries.sql
 Generate analytical insights
+
 📊 5. Visualization
 Open .pbix file in Power BI
 Update data source to your local PostgreSQL database
