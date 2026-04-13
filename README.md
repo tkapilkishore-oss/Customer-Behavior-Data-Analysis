@@ -15,30 +15,40 @@ influence revenue generation and buying behavior.
 🧰 Tech Stack
 Tool	Usage
 🐍 Python (Pandas) - 	Data cleaning & feature engineering
+
 🗄️ PostgreSQL -	Data storage & advanced SQL analysis
+
 📊 Power BI	- Interactive dashboards & visualization
+
 📓 Jupyter Notebook	- Exploratory Data Analysis (EDA)
 
 🔄 Data Pipeline
 🧹 1. Data Cleaning & Feature Engineering (Python)
 🔧 Missing Value Imputation
+
 → Filled missing review ratings using category-wise median
 🏷️ Column Standardization
+
 → Converted all columns to snake_case format
 👶 Feature Engineering
+
 → Created age_group column
+
 → Converted purchase frequency into purchase_frequency_days
 🧼 Data Integrity
+
 → Removed redundant and overlapping columns
 
 🧠 2. Advanced Analysis (SQL - PostgreSQL)
 💰 Revenue Segmentation
 → Compared total revenue across gender and age groups
+
 🔁 Customer Loyalty Segmentation
 → Classified customers into:
 New
 Returning
 Loyal
+
 🏆 Top Product Analysis
 → Identified top 3 most purchased items per category using ROW_NUMBER()
 📈 Subscription Impact Analysis
@@ -65,13 +75,17 @@ Filters (Slicers) for:
 🔍 Key Insights
 👶 Demographic Drivers
 → Young adults contribute the highest revenue share
+
 🚚 Shipping Preferences
 → Customers choosing Express Shipping spend more
+
 🎯 Discount Strategy
 → Products like hats and gloves rely heavily on discounts
+
 🔁 Loyalty Gap
 → Many loyal customers are not subscribed
 → Strong opportunity for targeted marketing campaigns
+
 🚀 How to Run the Project
 ⚙️ 1. Environment Setup
 Install:
